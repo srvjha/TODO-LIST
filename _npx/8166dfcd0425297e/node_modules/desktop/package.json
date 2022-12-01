@@ -1,0 +1,43 @@
+{
+	"name": "desktop",
+	"version": "0.1.0",
+	"description": "Capture a screenshot (macOS only)",
+	"license": "MIT",
+	"repository": "sindresorhus/desktop",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"screenshot",
+		"shot",
+		"screen",
+		"image",
+		"capture",
+		"picture"
+	],
+	"dependencies": {
+		"date-time": "^2.0.0",
+		"execa": "^0.10.0",
+		"meow": "^4.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"del": "^3.0.0",
+		"globby": "^8.0.1",
+		"xo": "*"
+	}
+}
